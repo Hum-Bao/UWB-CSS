@@ -1,0 +1,18 @@
+Program was compiled with the Pthread and Math libraries linked
+gcc -Wall -Wextra sudoku.c -o sudoku -lm -lpthread
+
+1. Can verify whether it is valid or not 10/10
+    Program can verfiy whether a sudoku puzzle if valid or not
+2. Starts/joins multiple threads to speedup operation 5/5
+    Program uses N + 2 threads to determine validity
+3. For NxN complete puzzle, can verify whether it is valid or not 5/5
+    Can verify whether a NxN sudoku puzzle if valid
+4. Using a minimum of 3 threads 5/5
+    Program uses N + 2 threads
+5. Bonus: Can complete puzzles 2/2
+    Program can solve the provided puzzle
+6. Bonus: Can complete difficult puzzles 3/3
+    Program can solve difficult puzzles I created and provided to it.
+    I was unable to find the puzzle-hard.txt file to test my program with.
+
+Total: 30 points
