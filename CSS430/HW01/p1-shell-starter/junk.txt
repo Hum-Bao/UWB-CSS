@@ -1,0 +1,6 @@
+a.out
+junk.txt
+runit.sh
+shell.c
+shell.h
+shell_pisan
