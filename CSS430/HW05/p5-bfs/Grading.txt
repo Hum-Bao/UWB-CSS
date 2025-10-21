@@ -1,9 +1,0 @@
-Grade received: 25/25
-
-Extra credit attempted: 
-
-Bonus: +10 Write 700 bytes, starting at FBN 49. (This write extends the file)
- 
-Extra credit points received: 10
- 
-Total grade: 35/25

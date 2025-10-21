@@ -5,7 +5,6 @@
 
 struct node* head_node;
 
-// add a task to the list
 void add(char* name, int priority, int burst) {
 
     Task* temp = malloc(sizeof(Task));

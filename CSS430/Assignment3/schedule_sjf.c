@@ -15,7 +15,6 @@ void add(char* name, int priority, int burst) {
     insert(&head_node, temp);
 }
 
-// Shortest Job First (SJF) Scheduling
 void schedule() {
     int time = 0;
 
@@ -25,6 +24,7 @@ void schedule() {
         struct node* temp = head_node;
         struct node* shortest = head_node;
 
+        // Find the task with the shortest burst time
         while (temp != NULL) {
             if (temp->task->burst <= shortest->task->burst) {
                 shortest = temp;

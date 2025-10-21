@@ -19,7 +19,6 @@ void add(char* name, int priority, int burst) {
     insert(&priority_queue[priority], temp);
 }
 
-// Priority Scheduling
 void schedule() {
 
     int time = 0;
