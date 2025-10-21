@@ -1,0 +1,6 @@
+ERROR: -456 is an invalid account ID. Transaction refused.
+ERROR: Deposit amount -987 is not allowed. Transaction refused
+ERROR: Not enough funds for transfer. Transferal refused.
+ERROR: Not enough funds to withdraw 200 from Mr. Good's Money Market
+ERROR: Fund ID 9 not found. Transaction refused
+ERROR: Account 8700 not found. Deposit refused.

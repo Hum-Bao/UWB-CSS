@@ -1,0 +1,206 @@
+Transaction History for Johnny Cash by fund.
+Money Market: $670
+  D 1001 0 542
+  W 1001 0 72
+Prime Money Market: $3042
+  D 1001 1 1542
+  D 1001 1 1500
+Long-Term Bond: $10442
+  D 1001 2 5442
+  D 1001 2 5000
+Short-Term Bond: $14540
+  D 1001 3 7540
+  D 1001 3 7000
+Capital Value Fund: $54
+  T 1001 7 1001 5 54
+Growth Equity Fund: $15053
+  D 1001 6 7542
+  D 1001 6 7576
+  W 1001 6 65
+Growth Index Fund: $10931
+  D 1001 7 5442
+  D 1001 7 6543
+  W 1001 7 1000
+  T 1001 7 1001 5 54
+  W 1001 7 20000 (Failed)
+International Fund: $4567
+  D 1001 8 4567
+
+Transaction History for Hank Williams 500 Index Fund: $10000
+  D 1253 4 10000
+
+Transaction History for Hank Williams by fund.
+Money Market: $10200
+  D 1253 0 10000
+Prime Money Market: $10000
+  D 1253 1 10000
+Long-Term Bond: $0
+  D 1253 2 10000
+  W 1253 2 10000
+Short-Term Bond: $5000
+  D 1253 3 10000
+  W 1253 3 5000
+500 Index Fund: $10000
+  D 1253 4 10000
+Capital Value Fund: $10000
+  D 1253 5 10000
+Growth Equity Fund: $10000
+  D 1253 6 10000
+Growth Index Fund: $10000
+  D 1253 7 10000
+
+Transaction History for Johnny Cash by fund.
+Money Market: $640
+  D 1001 0 542
+  W 1001 0 72
+  T 1001 0 3000 4 500
+  D 1001 0 542
+  W 1001 0 72
+Prime Money Market: $6084
+  D 1001 1 1542
+  D 1001 1 1500
+  D 1001 1 1542
+  D 1001 1 1500
+Long-Term Bond: $20884
+  D 1001 2 5442
+  D 1001 2 5000
+  D 1001 2 5442
+  D 1001 2 5000
+Short-Term Bond: $29080
+  D 1001 3 7540
+  D 1001 3 7000
+  D 1001 3 7540
+  D 1001 3 7000
+500 Index Fund: $0
+  T 1001 0 3000 4 500
+Capital Value Fund: $108
+  T 1001 7 1001 5 54
+  T 1001 7 1001 5 54
+Growth Equity Fund: $30106
+  D 1001 6 7542
+  D 1001 6 7576
+  W 1001 6 65
+  D 1001 6 7542
+  D 1001 6 7576
+  W 1001 6 65
+Growth Index Fund: $1862
+  D 1001 7 5442
+  D 1001 7 6543
+  W 1001 7 1000
+  T 1001 7 1001 5 54
+  W 1001 7 20000 (Failed)
+  D 1001 7 5442
+  D 1001 7 6543
+  W 1001 7 1000
+  T 1001 7 1001 5 54
+  W 1001 7 20000
+International Fund: $9134
+  D 1001 8 4567
+  D 1001 8 4567
+
+Transaction History for Hank Williams 500 Index Fund: $20000
+  D 1253 4 10000
+  D 1253 4 10000
+
+Transaction History for Hank Williams by fund.
+Money Market: $20200
+  D 1253 0 10000
+  D 1253 0 10000
+Prime Money Market: $10000
+  D 1253 1 10000
+  T 1253 1 9876 1 10000
+  T 1253 1 9876 1 10000
+  D 1253 1 10000
+Long-Term Bond: $0
+  D 1253 2 10000
+  W 1253 2 10000
+  D 1253 2 10000
+  W 1253 2 10000
+Short-Term Bond: $10000
+  D 1253 3 10000
+  W 1253 3 5000
+  D 1253 3 10000
+  W 1253 3 5000
+500 Index Fund: $20000
+  D 1253 4 10000
+  D 1253 4 10000
+Capital Value Fund: $20000
+  D 1253 5 10000
+  D 1253 5 10000
+Growth Equity Fund: $20000
+  D 1253 6 10000
+  D 1253 6 10000
+Growth Index Fund: $20000
+  D 1253 7 10000
+  D 1253 7 10000
+
+
+
+Account Balances:
+
+George Jones Account ID: 500
+    Money Market: $200
+    Prime Money Market: $0
+    Long-Term Bond: $0
+    Short-Term Bond: $0
+    500 Index Fund: $0
+    Capital Value Fund: $0
+    Growth Equity Fund: $0
+    Growth Index Fund: $0
+    International Fund: $0
+
+Johnny Cash Account ID: 1001
+    Money Market: $140
+    Prime Money Market: $6084
+    Long-Term Bond: $20884
+    Short-Term Bond: $29080
+    500 Index Fund: $0
+    Capital Value Fund: $108
+    Growth Equity Fund: $30106
+    Growth Index Fund: $1862
+    International Fund: $9134
+
+Hank Williams Account ID: 1253
+    Money Market: $20200
+    Prime Money Market: $0
+    Long-Term Bond: $0
+    Short-Term Bond: $10000
+    500 Index Fund: $20000
+    Capital Value Fund: $20000
+    Growth Equity Fund: $20000
+    Growth Index Fund: $20000
+    International Fund: $0
+
+Jay Farrar Account ID: 2000
+    Money Market: $200
+    Prime Money Market: $0
+    Long-Term Bond: $0
+    Short-Term Bond: $0
+    500 Index Fund: $0
+    Capital Value Fund: $0
+    Growth Equity Fund: $0
+    Growth Index Fund: $0
+    International Fund: $0
+
+Sturgill Simpson Account ID: 3000
+    Money Market: $200
+    Prime Money Market: $0
+    Long-Term Bond: $0
+    Short-Term Bond: $0
+    500 Index Fund: $1000
+    Capital Value Fund: $0
+    Growth Equity Fund: $0
+    Growth Index Fund: $0
+    International Fund: $0
+
+Willie Nelson Account ID: 9876
+    Money Market: $200
+    Prime Money Market: $20000
+    Long-Term Bond: $0
+    Short-Term Bond: $0
+    500 Index Fund: $0
+    Capital Value Fund: $0
+    Growth Equity Fund: $0
+    Growth Index Fund: $0
+    International Fund: $0
+

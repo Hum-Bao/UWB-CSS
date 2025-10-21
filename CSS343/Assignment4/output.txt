@@ -1,0 +1,443 @@
+Wed May 29 11:36:25 UTC 2024
+Linux linuxlab 6.8.4-3-pve #1 SMP PREEMPT_DYNAMIC PMX 6.8.4-3 (2024-05-02T11:55Z) x86_64 x86_64 x86_64 GNU/Linux
+uid=0(root) gid=0(root) groups=0(root)
+=====================================================
+1. Compiles without warnings with -Wall -Wextra flags
+=====================================================
+In file included from classics.cpp:1:
+classics.h:31:24: error: 'bool Classics::GreaterThan(const Movie&) const' marked 'override', but does not override
+   31 |     [[nodiscard]] bool GreaterThan(const Movie& other) const override;
+      |                        ^~~~~~~~~~~
+classics.h:32:24: error: 'bool Classics::LessThan(const Movie&) const' marked 'override', but does not override
+   32 |     [[nodiscard]] bool LessThan(const Movie& other) const override;
+      |                        ^~~~~~~~
+classics.h:33:24: error: 'bool Classics::Equals(const Movie&) const' marked 'override', but does not override
+   33 |     [[nodiscard]] bool Equals(const Movie& other) const override;
+      |                        ^~~~~~
+In file included from comedy.cpp:1:
+comedy.h:23:24: error: 'bool Comedy::GreaterThan(const Movie&) const' marked 'override', but does not override
+   23 |     [[nodiscard]] bool GreaterThan(const Movie& other) const override;
+      |                        ^~~~~~~~~~~
+comedy.h:24:24: error: 'bool Comedy::LessThan(const Movie&) const' marked 'override', but does not override
+   24 |     [[nodiscard]] bool LessThan(const Movie& other) const override;
+      |                        ^~~~~~~~
+comedy.h:25:24: error: 'bool Comedy::Equals(const Movie&) const' marked 'override', but does not override
+   25 |     [[nodiscard]] bool Equals(const Movie& other) const override;
+      |                        ^~~~~~
+In file included from inventory.cpp:9:
+classics.h:31:24: error: 'bool Classics::GreaterThan(const Movie&) const' marked 'override', but does not override
+   31 |     [[nodiscard]] bool GreaterThan(const Movie& other) const override;
+      |                        ^~~~~~~~~~~
+classics.h:32:24: error: 'bool Classics::LessThan(const Movie&) const' marked 'override', but does not override
+   32 |     [[nodiscard]] bool LessThan(const Movie& other) const override;
+      |                        ^~~~~~~~
+classics.h:33:24: error: 'bool Classics::Equals(const Movie&) const' marked 'override', but does not override
+   33 |     [[nodiscard]] bool Equals(const Movie& other) const override;
+      |                        ^~~~~~
+In file included from main.cpp:4:
+classics.h:31:24: error: 'bool Classics::GreaterThan(const Movie&) const' marked 'override', but does not override
+   31 |     [[nodiscard]] bool GreaterThan(const Movie& other) const override;
+      |                        ^~~~~~~~~~~
+classics.h:32:24: error: 'bool Classics::LessThan(const Movie&) const' marked 'override', but does not override
+   32 |     [[nodiscard]] bool LessThan(const Movie& other) const override;
+      |                        ^~~~~~~~
+classics.h:33:24: error: 'bool Classics::Equals(const Movie&) const' marked 'override', but does not override
+   33 |     [[nodiscard]] bool Equals(const Movie& other) const override;
+      |                        ^~~~~~
+In file included from moviefactory.h:6,
+                 from moviefactory.cpp:1:
+classics.h:31:24: error: 'bool Classics::GreaterThan(const Movie&) const' marked 'override', but does not override
+   31 |     [[nodiscard]] bool GreaterThan(const Movie& other) const override;
+      |                        ^~~~~~~~~~~
+classics.h:32:24: error: 'bool Classics::LessThan(const Movie&) const' marked 'override', but does not override
+   32 |     [[nodiscard]] bool LessThan(const Movie& other) const override;
+      |                        ^~~~~~~~
+classics.h:33:24: error: 'bool Classics::Equals(const Movie&) const' marked 'override', but does not override
+   33 |     [[nodiscard]] bool Equals(const Movie& other) const override;
+      |                        ^~~~~~
+In file included from moviefactory.h:7:
+comedy.h:23:24: error: 'bool Comedy::GreaterThan(const Movie&) const' marked 'override', but does not override
+   23 |     [[nodiscard]] bool GreaterThan(const Movie& other) const override;
+      |                        ^~~~~~~~~~~
+comedy.h:24:24: error: 'bool Comedy::LessThan(const Movie&) const' marked 'override', but does not override
+   24 |     [[nodiscard]] bool LessThan(const Movie& other) const override;
+      |                        ^~~~~~~~
+comedy.h:25:24: error: 'bool Comedy::Equals(const Movie&) const' marked 'override', but does not override
+   25 |     [[nodiscard]] bool Equals(const Movie& other) const override;
+      |                        ^~~~~~
+In file included from moviefactory.h:6,
+                 from moviestore.cpp:8:
+classics.h:31:24: error: 'bool Classics::GreaterThan(const Movie&) const' marked 'override', but does not override
+   31 |     [[nodiscard]] bool GreaterThan(const Movie& other) const override;
+      |                        ^~~~~~~~~~~
+classics.h:32:24: error: 'bool Classics::LessThan(const Movie&) const' marked 'override', but does not override
+   32 |     [[nodiscard]] bool LessThan(const Movie& other) const override;
+      |                        ^~~~~~~~
+classics.h:33:24: error: 'bool Classics::Equals(const Movie&) const' marked 'override', but does not override
+   33 |     [[nodiscard]] bool Equals(const Movie& other) const override;
+      |                        ^~~~~~
+In file included from moviefactory.h:7:
+comedy.h:23:24: error: 'bool Comedy::GreaterThan(const Movie&) const' marked 'override', but does not override
+   23 |     [[nodiscard]] bool GreaterThan(const Movie& other) const override;
+      |                        ^~~~~~~~~~~
+comedy.h:24:24: error: 'bool Comedy::LessThan(const Movie&) const' marked 'override', but does not override
+   24 |     [[nodiscard]] bool LessThan(const Movie& other) const override;
+      |                        ^~~~~~~~
+comedy.h:25:24: error: 'bool Comedy::Equals(const Movie&) const' marked 'override', but does not override
+   25 |     [[nodiscard]] bool Equals(const Movie& other) const override;
+      |                        ^~~~~~
+=====================================================
+2. Runs and produces correct output
+=====================================================
+create-output.sh: line 69: ./a.out: No such file or directory
+=====================================================
+3. clang-tidy warnings are fixed
+=====================================================
+38440 warnings and 3 errors generated.
+Error while processing /home/kbricks/CSS343/ass4-movie-starter/classics.cpp.
+76882 warnings and 6 errors generated.
+Error while processing /home/kbricks/CSS343/ass4-movie-starter/comedy.cpp.
+110370 warnings and 6 errors generated.
+Error while processing /home/kbricks/CSS343/ass4-movie-starter/customer.cpp.
+152588 warnings and 6 errors generated.
+Error while processing /home/kbricks/CSS343/ass4-movie-starter/customermanager.cpp.
+191030 warnings and 6 errors generated.
+Error while processing /home/kbricks/CSS343/ass4-movie-starter/drama.cpp.
+244601 warnings and 9 errors generated.
+Error while processing /home/kbricks/CSS343/ass4-movie-starter/inventory.cpp.
+292437 warnings and 12 errors generated.
+Error while processing /home/kbricks/CSS343/ass4-movie-starter/main.cpp.
+292437 warnings and 12 errors generated.
+Error while processing /home/kbricks/CSS343/ass4-movie-starter/media.cpp.
+331012 warnings and 12 errors generated.
+Error while processing /home/kbricks/CSS343/ass4-movie-starter/movie.cpp.
+376204 warnings and 18 errors generated.
+Error while processing /home/kbricks/CSS343/ass4-movie-starter/moviefactory.cpp.
+426920 warnings and 24 errors generated.
+Error while processing /home/kbricks/CSS343/ass4-movie-starter/moviestore.cpp.
+468482 warnings and 24 errors generated.
+Error while processing /home/kbricks/CSS343/ass4-movie-starter/store_test.cpp.
+507791 warnings and 24 errors generated.
+Error while processing /home/kbricks/CSS343/ass4-movie-starter/transaction.cpp.
+550093 warnings and 24 errors generated.
+Error while processing /home/kbricks/CSS343/ass4-movie-starter/transactionmanager.cpp.
+/home/kbricks/CSS343/ass4-movie-starter/classics.h:31:62: error: only virtual member functions can be marked 'override' [clang-diagnostic-error]
+    [[nodiscard]] bool GreaterThan(const Movie& other) const override;
+                                                             ^~~~~~~~
+/home/kbricks/CSS343/ass4-movie-starter/classics.h:32:59: error: only virtual member functions can be marked 'override' [clang-diagnostic-error]
+    [[nodiscard]] bool LessThan(const Movie& other) const override;
+                                                          ^~~~~~~~
+/home/kbricks/CSS343/ass4-movie-starter/classics.h:33:57: error: only virtual member functions can be marked 'override' [clang-diagnostic-error]
+    [[nodiscard]] bool Equals(const Movie& other) const override;
+                                                        ^~~~~~~~
+/home/kbricks/CSS343/ass4-movie-starter/comedy.cpp:7:9: warning: use '= default' to define a trivial default constructor [hicpp-use-equals-default,modernize-use-equals-default]
+Comedy::Comedy() {}
+        ^        ~~
+                 = default;
+/home/kbricks/CSS343/ass4-movie-starter/comedy.h:23:62: error: only virtual member functions can be marked 'override' [clang-diagnostic-error]
+    [[nodiscard]] bool GreaterThan(const Movie& other) const override;
+                                                             ^~~~~~~~
+/home/kbricks/CSS343/ass4-movie-starter/comedy.h:24:59: error: only virtual member functions can be marked 'override' [clang-diagnostic-error]
+    [[nodiscard]] bool LessThan(const Movie& other) const override;
+                                                          ^~~~~~~~
+/home/kbricks/CSS343/ass4-movie-starter/comedy.h:25:57: error: only virtual member functions can be marked 'override' [clang-diagnostic-error]
+    [[nodiscard]] bool Equals(const Movie& other) const override;
+                                                        ^~~~~~~~
+/home/kbricks/CSS343/ass4-movie-starter/drama.cpp:7:8: warning: use '= default' to define a trivial default constructor [hicpp-use-equals-default,modernize-use-equals-default]
+Drama::Drama() {}
+       ^       ~~
+               = default;
+/home/kbricks/CSS343/ass4-movie-starter/store_test.cpp:20:3: warning: variable 'cfile' of type 'string' (aka 'basic_string<char>') can be declared 'const' [misc-const-correctness]
+  string cfile = "testcommands-1.txt";
+  ^
+         const 
+/home/kbricks/CSS343/ass4-movie-starter/store_test.cpp:24:8: warning: variable 'commandType' is not initialized [cppcoreguidelines-init-variables]
+  char commandType;
+       ^
+                   = 0
+/home/kbricks/CSS343/ass4-movie-starter/store_test.cpp:24:8: warning: invalid case style for variable 'commandType' [readability-identifier-naming]
+  char commandType;
+       ^~~~~~~~~~~
+       command_type
+/home/kbricks/CSS343/ass4-movie-starter/store_test.cpp:31:3: warning: variable 'result' of type 'string' (aka 'basic_string<char>') can be declared 'const' [misc-const-correctness]
+  string result = "IHHBRIBBIH";
+  ^
+         const 
+Suppressed 550085 warnings (550085 in non-user code).
+Use -header-filter=.* to display errors from all non-system headers. Use -system-headers to display errors from system headers as well.
+Found compiler error(s).
+=====================================================
+4. clang-format does not find any formatting issues
+=====================================================
+WARNING: clang-format not available
+=====================================================
+5. No memory leaks using g++
+=====================================================
+In file included from classics.cpp:1:
+classics.h:31:24: error: 'bool Classics::GreaterThan(const Movie&) const' marked 'override', but does not override
+   31 |     [[nodiscard]] bool GreaterThan(const Movie& other) const override;
+      |                        ^~~~~~~~~~~
+classics.h:32:24: error: 'bool Classics::LessThan(const Movie&) const' marked 'override', but does not override
+   32 |     [[nodiscard]] bool LessThan(const Movie& other) const override;
+      |                        ^~~~~~~~
+classics.h:33:24: error: 'bool Classics::Equals(const Movie&) const' marked 'override', but does not override
+   33 |     [[nodiscard]] bool Equals(const Movie& other) const override;
+      |                        ^~~~~~
+In file included from comedy.cpp:1:
+comedy.h:23:24: error: 'bool Comedy::GreaterThan(const Movie&) const' marked 'override', but does not override
+   23 |     [[nodiscard]] bool GreaterThan(const Movie& other) const override;
+      |                        ^~~~~~~~~~~
+comedy.h:24:24: error: 'bool Comedy::LessThan(const Movie&) const' marked 'override', but does not override
+   24 |     [[nodiscard]] bool LessThan(const Movie& other) const override;
+      |                        ^~~~~~~~
+comedy.h:25:24: error: 'bool Comedy::Equals(const Movie&) const' marked 'override', but does not override
+   25 |     [[nodiscard]] bool Equals(const Movie& other) const override;
+      |                        ^~~~~~
+In file included from inventory.cpp:9:
+classics.h:31:24: error: 'bool Classics::GreaterThan(const Movie&) const' marked 'override', but does not override
+   31 |     [[nodiscard]] bool GreaterThan(const Movie& other) const override;
+      |                        ^~~~~~~~~~~
+classics.h:32:24: error: 'bool Classics::LessThan(const Movie&) const' marked 'override', but does not override
+   32 |     [[nodiscard]] bool LessThan(const Movie& other) const override;
+      |                        ^~~~~~~~
+classics.h:33:24: error: 'bool Classics::Equals(const Movie&) const' marked 'override', but does not override
+   33 |     [[nodiscard]] bool Equals(const Movie& other) const override;
+      |                        ^~~~~~
+In file included from main.cpp:4:
+classics.h:31:24: error: 'bool Classics::GreaterThan(const Movie&) const' marked 'override', but does not override
+   31 |     [[nodiscard]] bool GreaterThan(const Movie& other) const override;
+      |                        ^~~~~~~~~~~
+classics.h:32:24: error: 'bool Classics::LessThan(const Movie&) const' marked 'override', but does not override
+   32 |     [[nodiscard]] bool LessThan(const Movie& other) const override;
+      |                        ^~~~~~~~
+classics.h:33:24: error: 'bool Classics::Equals(const Movie&) const' marked 'override', but does not override
+   33 |     [[nodiscard]] bool Equals(const Movie& other) const override;
+      |                        ^~~~~~
+In file included from moviefactory.h:6,
+                 from moviefactory.cpp:1:
+classics.h:31:24: error: 'bool Classics::GreaterThan(const Movie&) const' marked 'override', but does not override
+   31 |     [[nodiscard]] bool GreaterThan(const Movie& other) const override;
+      |                        ^~~~~~~~~~~
+classics.h:32:24: error: 'bool Classics::LessThan(const Movie&) const' marked 'override', but does not override
+   32 |     [[nodiscard]] bool LessThan(const Movie& other) const override;
+      |                        ^~~~~~~~
+classics.h:33:24: error: 'bool Classics::Equals(const Movie&) const' marked 'override', but does not override
+   33 |     [[nodiscard]] bool Equals(const Movie& other) const override;
+      |                        ^~~~~~
+In file included from moviefactory.h:7:
+comedy.h:23:24: error: 'bool Comedy::GreaterThan(const Movie&) const' marked 'override', but does not override
+   23 |     [[nodiscard]] bool GreaterThan(const Movie& other) const override;
+      |                        ^~~~~~~~~~~
+comedy.h:24:24: error: 'bool Comedy::LessThan(const Movie&) const' marked 'override', but does not override
+   24 |     [[nodiscard]] bool LessThan(const Movie& other) const override;
+      |                        ^~~~~~~~
+comedy.h:25:24: error: 'bool Comedy::Equals(const Movie&) const' marked 'override', but does not override
+   25 |     [[nodiscard]] bool Equals(const Movie& other) const override;
+      |                        ^~~~~~
+In file included from moviefactory.h:6,
+                 from moviestore.cpp:8:
+classics.h:31:24: error: 'bool Classics::GreaterThan(const Movie&) const' marked 'override', but does not override
+   31 |     [[nodiscard]] bool GreaterThan(const Movie& other) const override;
+      |                        ^~~~~~~~~~~
+classics.h:32:24: error: 'bool Classics::LessThan(const Movie&) const' marked 'override', but does not override
+   32 |     [[nodiscard]] bool LessThan(const Movie& other) const override;
+      |                        ^~~~~~~~
+classics.h:33:24: error: 'bool Classics::Equals(const Movie&) const' marked 'override', but does not override
+   33 |     [[nodiscard]] bool Equals(const Movie& other) const override;
+      |                        ^~~~~~
+In file included from moviefactory.h:7:
+comedy.h:23:24: error: 'bool Comedy::GreaterThan(const Movie&) const' marked 'override', but does not override
+   23 |     [[nodiscard]] bool GreaterThan(const Movie& other) const override;
+      |                        ^~~~~~~~~~~
+comedy.h:24:24: error: 'bool Comedy::LessThan(const Movie&) const' marked 'override', but does not override
+   24 |     [[nodiscard]] bool LessThan(const Movie& other) const override;
+      |                        ^~~~~~~~
+comedy.h:25:24: error: 'bool Comedy::Equals(const Movie&) const' marked 'override', but does not override
+   25 |     [[nodiscard]] bool Equals(const Movie& other) const override;
+      |                        ^~~~~~
+=====================================================
+6. No memory leaks using valgrind, look for "definitely lost" 
+=====================================================
+In file included from classics.cpp:1:
+classics.h:31:24: error: 'bool Classics::GreaterThan(const Movie&) const' marked 'override', but does not override
+   31 |     [[nodiscard]] bool GreaterThan(const Movie& other) const override;
+      |                        ^~~~~~~~~~~
+classics.h:32:24: error: 'bool Classics::LessThan(const Movie&) const' marked 'override', but does not override
+   32 |     [[nodiscard]] bool LessThan(const Movie& other) const override;
+      |                        ^~~~~~~~
+classics.h:33:24: error: 'bool Classics::Equals(const Movie&) const' marked 'override', but does not override
+   33 |     [[nodiscard]] bool Equals(const Movie& other) const override;
+      |                        ^~~~~~
+In file included from comedy.cpp:1:
+comedy.h:23:24: error: 'bool Comedy::GreaterThan(const Movie&) const' marked 'override', but does not override
+   23 |     [[nodiscard]] bool GreaterThan(const Movie& other) const override;
+      |                        ^~~~~~~~~~~
+comedy.h:24:24: error: 'bool Comedy::LessThan(const Movie&) const' marked 'override', but does not override
+   24 |     [[nodiscard]] bool LessThan(const Movie& other) const override;
+      |                        ^~~~~~~~
+comedy.h:25:24: error: 'bool Comedy::Equals(const Movie&) const' marked 'override', but does not override
+   25 |     [[nodiscard]] bool Equals(const Movie& other) const override;
+      |                        ^~~~~~
+In file included from inventory.cpp:9:
+classics.h:31:24: error: 'bool Classics::GreaterThan(const Movie&) const' marked 'override', but does not override
+   31 |     [[nodiscard]] bool GreaterThan(const Movie& other) const override;
+      |                        ^~~~~~~~~~~
+classics.h:32:24: error: 'bool Classics::LessThan(const Movie&) const' marked 'override', but does not override
+   32 |     [[nodiscard]] bool LessThan(const Movie& other) const override;
+      |                        ^~~~~~~~
+classics.h:33:24: error: 'bool Classics::Equals(const Movie&) const' marked 'override', but does not override
+   33 |     [[nodiscard]] bool Equals(const Movie& other) const override;
+      |                        ^~~~~~
+In file included from main.cpp:4:
+classics.h:31:24: error: 'bool Classics::GreaterThan(const Movie&) const' marked 'override', but does not override
+   31 |     [[nodiscard]] bool GreaterThan(const Movie& other) const override;
+      |                        ^~~~~~~~~~~
+classics.h:32:24: error: 'bool Classics::LessThan(const Movie&) const' marked 'override', but does not override
+   32 |     [[nodiscard]] bool LessThan(const Movie& other) const override;
+      |                        ^~~~~~~~
+classics.h:33:24: error: 'bool Classics::Equals(const Movie&) const' marked 'override', but does not override
+   33 |     [[nodiscard]] bool Equals(const Movie& other) const override;
+      |                        ^~~~~~
+In file included from moviefactory.h:6,
+                 from moviefactory.cpp:1:
+classics.h:31:24: error: 'bool Classics::GreaterThan(const Movie&) const' marked 'override', but does not override
+   31 |     [[nodiscard]] bool GreaterThan(const Movie& other) const override;
+      |                        ^~~~~~~~~~~
+classics.h:32:24: error: 'bool Classics::LessThan(const Movie&) const' marked 'override', but does not override
+   32 |     [[nodiscard]] bool LessThan(const Movie& other) const override;
+      |                        ^~~~~~~~
+classics.h:33:24: error: 'bool Classics::Equals(const Movie&) const' marked 'override', but does not override
+   33 |     [[nodiscard]] bool Equals(const Movie& other) const override;
+      |                        ^~~~~~
+In file included from moviefactory.h:7:
+comedy.h:23:24: error: 'bool Comedy::GreaterThan(const Movie&) const' marked 'override', but does not override
+   23 |     [[nodiscard]] bool GreaterThan(const Movie& other) const override;
+      |                        ^~~~~~~~~~~
+comedy.h:24:24: error: 'bool Comedy::LessThan(const Movie&) const' marked 'override', but does not override
+   24 |     [[nodiscard]] bool LessThan(const Movie& other) const override;
+      |                        ^~~~~~~~
+comedy.h:25:24: error: 'bool Comedy::Equals(const Movie&) const' marked 'override', but does not override
+   25 |     [[nodiscard]] bool Equals(const Movie& other) const override;
+      |                        ^~~~~~
+In file included from moviefactory.h:6,
+                 from moviestore.cpp:8:
+classics.h:31:24: error: 'bool Classics::GreaterThan(const Movie&) const' marked 'override', but does not override
+   31 |     [[nodiscard]] bool GreaterThan(const Movie& other) const override;
+      |                        ^~~~~~~~~~~
+classics.h:32:24: error: 'bool Classics::LessThan(const Movie&) const' marked 'override', but does not override
+   32 |     [[nodiscard]] bool LessThan(const Movie& other) const override;
+      |                        ^~~~~~~~
+classics.h:33:24: error: 'bool Classics::Equals(const Movie&) const' marked 'override', but does not override
+   33 |     [[nodiscard]] bool Equals(const Movie& other) const override;
+      |                        ^~~~~~
+In file included from moviefactory.h:7:
+comedy.h:23:24: error: 'bool Comedy::GreaterThan(const Movie&) const' marked 'override', but does not override
+   23 |     [[nodiscard]] bool GreaterThan(const Movie& other) const override;
+      |                        ^~~~~~~~~~~
+comedy.h:24:24: error: 'bool Comedy::LessThan(const Movie&) const' marked 'override', but does not override
+   24 |     [[nodiscard]] bool LessThan(const Movie& other) const override;
+      |                        ^~~~~~~~
+comedy.h:25:24: error: 'bool Comedy::Equals(const Movie&) const' marked 'override', but does not override
+   25 |     [[nodiscard]] bool Equals(const Movie& other) const override;
+      |                        ^~~~~~
+cat: valgrind-output.txt: No such file or directory
+=====================================================
+7. Tests have full code coverage
+=====================================================
+In file included from classics.cpp:1:
+./classics.h:31:62: error: only virtual member functions can be marked 'override'
+    [[nodiscard]] bool GreaterThan(const Movie& other) const override;
+                                                             ^~~~~~~~
+./classics.h:32:59: error: only virtual member functions can be marked 'override'
+    [[nodiscard]] bool LessThan(const Movie& other) const override;
+                                                          ^~~~~~~~
+./classics.h:33:57: error: only virtual member functions can be marked 'override'
+    [[nodiscard]] bool Equals(const Movie& other) const override;
+                                                        ^~~~~~~~
+3 errors generated.
+In file included from comedy.cpp:1:
+./comedy.h:23:62: error: only virtual member functions can be marked 'override'
+    [[nodiscard]] bool GreaterThan(const Movie& other) const override;
+                                                             ^~~~~~~~
+./comedy.h:24:59: error: only virtual member functions can be marked 'override'
+    [[nodiscard]] bool LessThan(const Movie& other) const override;
+                                                          ^~~~~~~~
+./comedy.h:25:57: error: only virtual member functions can be marked 'override'
+    [[nodiscard]] bool Equals(const Movie& other) const override;
+                                                        ^~~~~~~~
+3 errors generated.
+In file included from inventory.cpp:9:
+./classics.h:31:62: error: only virtual member functions can be marked 'override'
+    [[nodiscard]] bool GreaterThan(const Movie& other) const override;
+                                                             ^~~~~~~~
+./classics.h:32:59: error: only virtual member functions can be marked 'override'
+    [[nodiscard]] bool LessThan(const Movie& other) const override;
+                                                          ^~~~~~~~
+./classics.h:33:57: error: only virtual member functions can be marked 'override'
+    [[nodiscard]] bool Equals(const Movie& other) const override;
+                                                        ^~~~~~~~
+3 errors generated.
+In file included from main.cpp:4:
+./classics.h:31:62: error: only virtual member functions can be marked 'override'
+    [[nodiscard]] bool GreaterThan(const Movie& other) const override;
+                                                             ^~~~~~~~
+./classics.h:32:59: error: only virtual member functions can be marked 'override'
+    [[nodiscard]] bool LessThan(const Movie& other) const override;
+                                                          ^~~~~~~~
+./classics.h:33:57: error: only virtual member functions can be marked 'override'
+    [[nodiscard]] bool Equals(const Movie& other) const override;
+                                                        ^~~~~~~~
+3 errors generated.
+In file included from moviefactory.cpp:1:
+In file included from ./moviefactory.h:6:
+./classics.h:31:62: error: only virtual member functions can be marked 'override'
+    [[nodiscard]] bool GreaterThan(const Movie& other) const override;
+                                                             ^~~~~~~~
+./classics.h:32:59: error: only virtual member functions can be marked 'override'
+    [[nodiscard]] bool LessThan(const Movie& other) const override;
+                                                          ^~~~~~~~
+./classics.h:33:57: error: only virtual member functions can be marked 'override'
+    [[nodiscard]] bool Equals(const Movie& other) const override;
+                                                        ^~~~~~~~
+In file included from moviefactory.cpp:1:
+In file included from ./moviefactory.h:7:
+./comedy.h:23:62: error: only virtual member functions can be marked 'override'
+    [[nodiscard]] bool GreaterThan(const Movie& other) const override;
+                                                             ^~~~~~~~
+./comedy.h:24:59: error: only virtual member functions can be marked 'override'
+    [[nodiscard]] bool LessThan(const Movie& other) const override;
+                                                          ^~~~~~~~
+./comedy.h:25:57: error: only virtual member functions can be marked 'override'
+    [[nodiscard]] bool Equals(const Movie& other) const override;
+                                                        ^~~~~~~~
+6 errors generated.
+In file included from moviestore.cpp:8:
+In file included from ./moviefactory.h:6:
+./classics.h:31:62: error: only virtual member functions can be marked 'override'
+    [[nodiscard]] bool GreaterThan(const Movie& other) const override;
+                                                             ^~~~~~~~
+./classics.h:32:59: error: only virtual member functions can be marked 'override'
+    [[nodiscard]] bool LessThan(const Movie& other) const override;
+                                                          ^~~~~~~~
+./classics.h:33:57: error: only virtual member functions can be marked 'override'
+    [[nodiscard]] bool Equals(const Movie& other) const override;
+                                                        ^~~~~~~~
+In file included from moviestore.cpp:8:
+In file included from ./moviefactory.h:7:
+./comedy.h:23:62: error: only virtual member functions can be marked 'override'
+    [[nodiscard]] bool GreaterThan(const Movie& other) const override;
+                                                             ^~~~~~~~
+./comedy.h:24:59: error: only virtual member functions can be marked 'override'
+    [[nodiscard]] bool LessThan(const Movie& other) const override;
+                                                          ^~~~~~~~
+./comedy.h:25:57: error: only virtual member functions can be marked 'override'
+    [[nodiscard]] bool Equals(const Movie& other) const override;
+                                                        ^~~~~~~~
+6 errors generated.
+ERROR: ./check-code-coverage.sh: Failed to create executable
+Wed May 29 11:37:38 UTC 2024
+=====================================================
+To create an output.txt file with all the output from this script
+Run the below command
+      ./create-output.sh > output.txt 2>&1 
+=====================================================

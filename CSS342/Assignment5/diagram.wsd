@@ -1,0 +1,61 @@
+@startuml
+
+participant User
+participant Bank
+participant Account
+participant BSTree
+participant Fund
+participant TransactionQueue
+participant Transaction
+
+User -> Bank: Passes string
+activate Bank
+Bank -> Bank: ReadTransaction(string)
+activate Transaction
+Bank -> Transaction: CreateTransaction(string)
+Bank -> Transaction: ParseString()
+Bank -> TransactionQueue: AddToQueue(Transaction)
+deactivate Transaction
+Bank --> User: Returns confirmation
+deactivate Bank
+
+User -> Bank: Passes more strings
+activate Bank
+Bank -> Bank: ReadTransaction(string)
+activate Transaction
+Bank -> Transaction: CreateTransaction(string)
+Bank -> Transaction: ParseString()
+Bank -> TransactionQueue: AddToQueue(Transaction)
+deactivate Transaction
+Bank --> User: Returns confirmation
+deactivate Bank
+
+User -> Bank: No more strings
+activate Bank
+Bank -> Bank: ProcessQueue()
+activate TransactionQueue
+Bank -> TransactionQueue: Dequeue()
+activate Transaction
+TransactionQueue -> Transaction: GetTransactionType()
+TransactionQueue --> Bank: Transaction type
+Bank -> Transaction: ProcessTransaction()
+deactivate Transaction
+Bank --> TransactionQueue: Processing result
+deactivate TransactionQueue
+Bank --> User: Ready for next action
+deactivate Bank
+
+User -> BSTree: Find Account
+activate BSTree
+BSTree --> User: Returns Account
+deactivate BSTree
+
+User -> Account: Perform Transaction
+activate Account
+Account -> Bank: Request Transaction History
+activate Bank
+Bank --> Account: Returns Transaction History
+deactivate Bank
+deactivate Account
+
+@enduml

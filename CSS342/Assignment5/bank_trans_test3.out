@@ -1,0 +1,59 @@
+Transaction History for Coca Cola by fund.
+500 Index Fund: $200
+  T 500 5 700 4 200
+  T 700 5 500 4 200
+Capital Value Fund: $150
+  D 700 5 500
+  W 700 5 100
+  W 700 5 50
+  T 500 5 700 4 200
+  T 700 5 500 4 200
+
+
+
+Account Balances:
+
+Stagger Lee Account ID: 500
+    Money Market: $200
+    Prime Money Market: $0
+    Long-Term Bond: $0
+    Short-Term Bond: $0
+    500 Index Fund: $200
+    Capital Value Fund: $150
+    Growth Equity Fund: $0
+    Growth Index Fund: $0
+    International Fund: $0
+
+Coca Cola Account ID: 700
+    Money Market: $200
+    Prime Money Market: $0
+    Long-Term Bond: $0
+    Short-Term Bond: $0
+    500 Index Fund: $200
+    Capital Value Fund: $150
+    Growth Equity Fund: $0
+    Growth Index Fund: $0
+    International Fund: $0
+
+Jimmy Jazz Account ID: 1200
+    Money Market: $200
+    Prime Money Market: $0
+    Long-Term Bond: $0
+    Short-Term Bond: $0
+    500 Index Fund: $200
+    Capital Value Fund: $150
+    Growth Equity Fund: $0
+    Growth Index Fund: $0
+    International Fund: $0
+
+Baby Driver Account ID: 2000
+    Money Market: $200
+    Prime Money Market: $0
+    Long-Term Bond: $0
+    Short-Term Bond: $0
+    500 Index Fund: $200
+    Capital Value Fund: $150
+    Growth Equity Fund: $0
+    Growth Index Fund: $0
+    International Fund: $0
+

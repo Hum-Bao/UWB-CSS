@@ -1,0 +1,13 @@
+3
+A   C   8
+A   B   1
+B   C   3.
+
+# we can write comments since only reading 3 lines
+
+
+
+A ---->-------> C
+ \            /
+  \          /
+   \-> B ->-
