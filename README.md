@@ -1,4 +1,4 @@
-# UWB CSS Coursework Repository
+# University of Washington Bothell (UWB) CSS Coursework Repository
 
 This repository contains my coursework from various Computer Science classes.  
 Each class section includes links to the folders containing assignments, along with the grades received (if applicable).
