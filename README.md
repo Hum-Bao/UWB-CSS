@@ -1,4 +1,4 @@
-# UWB CSS Coursework Repository
+# University of Washington Bothell (UWB) CSS Coursework Repository
 
 This repository contains my coursework from various Computer Science classes.  
 Each class section includes links to the folders containing assignments, along with the grades received (if applicable).
@@ -37,19 +37,19 @@ Each class section includes links to the folders containing assignments, along w
 ## CSS430 - Operating Systems
 | Assignment | Folder | Grade |
 |-------------|---------|-------|
-| Assignment 1 | [CSS430/Assignment1](CSS430/Assignment1) | N/A |
-| Assignment 2 | [CSS430/Assignment2](CSS430/Assignment2) | N/A |
-| Assignment 3 | [CSS430/Assignment3](CSS430/Assignment3) | N/A |
-| Assignment 4 | [CSS430/Assignment4](CSS430/Assignment4) | N/A |
-| Assignment 5 | [CSS430/Assignment5](CSS430/Assignment5) | N/A |
+| Assignment 1 | [CSS430/Assignment1](CSS430/Assignment1) | 29/25 |
+| Assignment 2 | [CSS430/Assignment2](CSS430/Assignment2) | 30/25 |
+| Assignment 3 | [CSS430/Assignment3](CSS430/Assignment3) | 27/25 |
+| Assignment 4 | [CSS430/Assignment4](CSS430/Assignment4) | 25/25 |
+| Assignment 5 | [CSS430/Assignment5](CSS430/Assignment5) | 35/25 |
 
 ---
 
 ## CSS432 - Network Design And Programming
 | Assignment | Folder | Grade |
 |-------------|---------|-------|
-| Assignment 1 | [CSS432/Assignment1](CSS432/Assignment1) | N/A |
-| Assignment 2 | [CSS432/Assignment2](CSS432/Assignment2) | N/A |
-| Assignment 3 | [CSS432/Assignment3](CSS432/Assignment3) | N/A |
-| Assignment 4 | [CSS432/Assignment4](CSS432/Assignment4) | N/A |
-| Assignment 5 | [Hum-Bao/Agario-cpp](https://github.com/Hum-Bao/Agario-cpp) | N/A |
+| Assignment 1 | [CSS432/Assignment1](CSS432/Assignment1) | 95/100 |
+| Assignment 2 | [CSS432/Assignment2](CSS432/Assignment2) | 100/100 |
+| Assignment 3 | [CSS432/Assignment3](CSS432/Assignment3) | 97/100 |
+| Assignment 4 | [CSS432/Assignment4](CSS432/Assignment4) | 100/100 |
+| Assignment 5 | [Hum-Bao/Agario-cpp](https://github.com/Hum-Bao/Agario-cpp) | 90/90 |
