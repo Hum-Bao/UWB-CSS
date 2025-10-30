@@ -6,50 +6,61 @@ Each class section includes links to the folders containing assignments, along w
 ---
 
 ## Table of Contents
-1. [CSS342 - Data Structures, Algorithms, And Discrete Mathematics I](#css342---data-structures-algorithms-and-discrete-mathematics-i)
-2. [CSS343 - Data Structures, Algorithms, And Discrete Mathematics II](#css343---data-structures-algorithms-and-discrete-mathematics-ii)
-3. [CSS430 - Operating Systems](#css430---operating-systems)
-4. [CSS432 - Network Design And Programming](#css432---network-design-and-programming)
+1. [CSS-342 - Data Structures, Algorithms, And Discrete Mathematics I](#css-342---data-structures-algorithms-and-discrete-mathematics-i)
+2. [CSS-343 - Data Structures, Algorithms, And Discrete Mathematics II](#css-343---data-structures-algorithms-and-discrete-mathematics-ii)
+3. [CSS-422 - Hardware And Computer Organization](#css-422---hardware-and-computer-organization)
+4. [CSS-430 - Operating Systems](#css-430---operating-systems)
+5. [CSS-432 - Network Design And Programming](#css-432---network-design-and-programming)
 
 ---
 
-## CSS342 - Data Structures, Algorithms, And Discrete Mathematics I
+## CSS-342 - Data Structures, Algorithms, And Discrete Mathematics I
 | Assignment | Folder | Grade |
 |-------------|---------|-------|
-| Assignment 1 | [CSS342/Assignment1](CSS342/Assignment1) | N/A |
-| Assignment 2 | [CSS342/Assignment2](CSS342/Assignment2) | N/A |
-| Assignment 3 | [CSS342/Assignment3](CSS342/Assignment3) | N/A |
-| Assignment 4 | [CSS342/Assignment4](CSS342/Assignment4) | N/A |
-| Assignment 5 | [CSS342/Assignment5](CSS342/Assignment5) | N/A |
+| Assignment 1 | [CSS-342/Assignment1](CSS-342/Assignment1) | N/A |
+| Assignment 2 | [CSS-342/Assignment2](CSS-342/Assignment2) | N/A |
+| Assignment 3 | [CSS-342/Assignment3](CSS-342/Assignment3) | N/A |
+| Assignment 4 | [CSS-342/Assignment4](CSS-342/Assignment4) | N/A |
+| Assignment 5 | [CSS-342/Assignment5](CSS-342/Assignment5) | N/A |
 
 ---
 
-## CSS343 - Data Structures, Algorithms, And Discrete Mathematics II
+## CSS-343 - Data Structures, Algorithms, And Discrete Mathematics II
 | Assignment | Folder | Grade |
 |-------------|---------|-------|
-| Assignment 1 | [CSS343/Assignment1](CSS343/Assignment1) | N/A |
-| Assignment 2 | [CSS343/Assignment2](CSS343/Assignment2) | N/A |
-| Assignment 3 | [CSS343/Assignment3](CSS343/Assignment3) | N/A |
-| Assignment 4 | [CSS343/Assignment4](CSS343/Assignment4) | N/A |
+| Assignment 1 | [CSS-343/Assignment1](CSS-343/Assignment1) | N/A |
+| Assignment 2 | [CSS-343/Assignment2](CSS-343/Assignment2) | N/A |
+| Assignment 3 | [CSS-343/Assignment3](CSS-343/Assignment3) | N/A |
+| Assignment 4 | [CSS-343/Assignment4](CSS-343/Assignment4) | N/A |
 
 ---
 
-## CSS430 - Operating Systems
+## CSS-422 - Hardware And Computer Organization
 | Assignment | Folder | Grade |
 |-------------|---------|-------|
-| Assignment 1 | [CSS430/Assignment1](CSS430/Assignment1) | 29/25 |
-| Assignment 2 | [CSS430/Assignment2](CSS430/Assignment2) | 30/25 |
-| Assignment 3 | [CSS430/Assignment3](CSS430/Assignment3) | 27/25 |
-| Assignment 4 | [CSS430/Assignment4](CSS430/Assignment4) | 25/25 |
-| Assignment 5 | [CSS430/Assignment5](CSS430/Assignment5) | 35/25 |
+| Assignment 1 | [CSS-422/Assignment1](CSS-422/Assignment1) | 10/10 |
+| Assignment 2 | [CSS-422/Assignment2](CSS-422/Assignment2) | 10/10 |
+| Assignment 3 | [CSS-422/Assignment3](CSS-422/Assignment3) | 20/20 |
+| Assignment 4 | [CSS-422/Assignment4](CSS-422/Assignment4) | 40/40 |
 
 ---
 
-## CSS432 - Network Design And Programming
+## CSS-430 - Operating Systems
 | Assignment | Folder | Grade |
 |-------------|---------|-------|
-| Assignment 1 | [CSS432/Assignment1](CSS432/Assignment1) | 95/100 |
-| Assignment 2 | [CSS432/Assignment2](CSS432/Assignment2) | 100/100 |
-| Assignment 3 | [CSS432/Assignment3](CSS432/Assignment3) | 97/100 |
-| Assignment 4 | [CSS432/Assignment4](CSS432/Assignment4) | 100/100 |
+| Assignment 1 | [CSS-430/Assignment1](CSS-430/Assignment1) | 29/25 |
+| Assignment 2 | [CSS-430/Assignment2](CSS-430/Assignment2) | 30/25 |
+| Assignment 3 | [CSS-430/Assignment3](CSS-430/Assignment3) | 27/25 |
+| Assignment 4 | [CSS-430/Assignment4](CSS-430/Assignment4) | 25/25 |
+| Assignment 5 | [CSS-430/Assignment5](CSS-430/Assignment5) | 35/25 |
+
+---
+
+## CSS-432 - Network Design And Programming
+| Assignment | Folder | Grade |
+|-------------|---------|-------|
+| Assignment 1 | [CSS-432/Assignment1](CSS-432/Assignment1) | 95/100 |
+| Assignment 2 | [CSS-432/Assignment2](CSS-432/Assignment2) | 100/100 |
+| Assignment 3 | [CSS-432/Assignment3](CSS-432/Assignment3) | 97/100 |
+| Assignment 4 | [CSS-432/Assignment4](CSS-432/Assignment4) | 100/100 |
 | Assignment 5 | [Hum-Bao/Agario-cpp](https://github.com/Hum-Bao/Agario-cpp) | 90/90 |
