@@ -44,7 +44,8 @@ Each class section includes links to the folders containing assignments, along w
 | Assignment 2 | [Hum-Bao/Next-Gen-Hero](https://github.com/Hum-Bao/Next-Gen-Hero) | N/A |
 | Assignment 3 | [Hum-Bao/Hero-With-Camera](https://github.com/Hum-Bao/Hero-With-Camera) | N/A |
 | Assignment 4 | [Hum-Bao/Fog-Of-War](https://github.com/Hum-Bao/Fog-Of-War) | N/A |
-| Assignment 5 | [Hum-Bao/2D-Fighter](https://github.com/Hum-Bao/2D-Fighter) | N/A |
+| Assignment 5 | [Hum-Bao/Unity-Frogger](https://github.com/Hum-Bao/unity-frogger) | N/A |
+| Final Project | [Hum-Bao/2D-Fighter](https://github.com/Hum-Bao/2D-Fighter) | N/A |
 
 ---
 
