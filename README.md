@@ -8,9 +8,11 @@ Each class section includes links to the folders containing assignments, along w
 ## Table of Contents
 1. [CSS-342 - Data Structures, Algorithms, And Discrete Mathematics I](#css-342---data-structures-algorithms-and-discrete-mathematics-i)
 2. [CSS-343 - Data Structures, Algorithms, And Discrete Mathematics II](#css-343---data-structures-algorithms-and-discrete-mathematics-ii)
-3. [CSS-422 - Hardware And Computer Organization](#css-422---hardware-and-computer-organization)
-4. [CSS-430 - Operating Systems](#css-430---operating-systems)
-5. [CSS-432 - Network Design And Programming](#css-432---network-design-and-programming)
+3. [CSS-385 - Introduction To Game Development](#css-385---introduction-to-game-development)
+4. [CSS-422 - Hardware And Computer Organization](#css-422---hardware-and-computer-organization)
+5. [CSS-430 - Operating Systems](#css-430---operating-systems)
+6. [CSS-432 - Network Design And Programming](#css-432---network-design-and-programming)
+7. [CSS-475 - Database Systems](#css-475---database-systems)
 
 ---
 
@@ -32,6 +34,17 @@ Each class section includes links to the folders containing assignments, along w
 | Assignment 2 | [CSS-343/Assignment2](CSS-343/Assignment2) | N/A |
 | Assignment 3 | [CSS-343/Assignment3](CSS-343/Assignment3) | N/A |
 | Assignment 4 | [CSS-343/Assignment4](CSS-343/Assignment4) | N/A |
+
+---
+
+## CSS-385 - Introduction To Game Development
+| Assignment | Folder | Grade |
+|-------------|---------|-------|
+| Assignment 1 | [Hum-Bao/Hero1](https://github.com/Hum-Bao/Hero1) | N/A |
+| Assignment 2 | [Hum-Bao/Next-Gen-Hero](https://github.com/Hum-Bao/Next-Gen-Hero) | N/A |
+| Assignment 3 | [Hum-Bao/Hero-With-Camera](https://github.com/Hum-Bao/Hero-With-Camera) | N/A |
+| Assignment 4 | [Hum-Bao/Fog-Of-War](https://github.com/Hum-Bao/Fog-Of-War) | N/A |
+| Assignment 5 | [Hum-Bao/2D-Fighter](https://github.com/Hum-Bao/2D-Fighter) | N/A |
 
 ---
 
@@ -64,3 +77,10 @@ Each class section includes links to the folders containing assignments, along w
 | Assignment 3 | [CSS-432/Assignment3](CSS-432/Assignment3) | 97/100 |
 | Assignment 4 | [CSS-432/Assignment4](CSS-432/Assignment4) | 100/100 |
 | Assignment 5 | [Hum-Bao/Agario-cpp](https://github.com/Hum-Bao/Agario-cpp) | 90/90 |
+
+---
+
+## CSS-475 - Database Systems
+| Assignment | Folder | Grade |
+|-------------|---------|-------|
+| Final Project | [Hum-Bao/475Final](https://github.com/Hum-Bao/475Final) | 100/100 |
